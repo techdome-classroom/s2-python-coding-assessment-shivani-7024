@@ -1,4 +1,4 @@
-class Solution(object):
+class Solution:
     def isValid(self, s):
         """
         :type s: str
