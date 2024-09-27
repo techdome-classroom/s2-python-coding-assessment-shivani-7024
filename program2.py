@@ -16,7 +16,6 @@ class Solution:
         
         return total
 
-
 import unittest
 
 class TestSolution(unittest.TestCase):
