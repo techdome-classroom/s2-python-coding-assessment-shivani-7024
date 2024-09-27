@@ -22,7 +22,6 @@ class Solution:
         return total
 
 
-# Unit test class to test the Solution class
 import unittest
 
 class TestSolution(unittest.TestCase):
