@@ -32,7 +32,6 @@ class TestSolution(unittest.TestCase):
         self.assertTrue(self.solution.isValid(""))
 
     def test_mixed_parentheses(self):
-        # Test case where parentheses are mixed and invalid
         self.assertFalse(self.solution.isValid("(){"))
 
 if __name__ == '__main__':
