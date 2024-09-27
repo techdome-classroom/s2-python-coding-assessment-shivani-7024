@@ -2,7 +2,6 @@ import unittest
 
 class Solution:
     def isValid(self, s: str) -> bool:
-        # Dictionary to map closing brackets to their corresponding opening brackets
         bracket_map = {')': '(', ']': '[', '}': '{'}
         stack = []
 
