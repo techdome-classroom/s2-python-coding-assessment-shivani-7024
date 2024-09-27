@@ -25,12 +25,10 @@ class TestSolution(unittest.TestCase):
         self.assertTrue(self.solution.isValid("{[()]}"))
 
     def test_invalid_parentheses(self):
-        # Test cases where parentheses are invalid
         self.assertFalse(self.solution.isValid("(]"))
         self.assertFalse(self.solution.isValid("([)]"))
 
     def test_empty_string(self):
-        # Test an empty string
         self.assertTrue(self.solution.isValid(""))
 
     def test_mixed_parentheses(self):
