@@ -1,7 +1,8 @@
 class Solution:
     def isValid(self, s: str)->bool:
 
-        bracket_map = {')':}
+        bracket_map = {')': '(', ']': '[', '}': '{'}
+        stack = []
 
 
 
